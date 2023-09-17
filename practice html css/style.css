@@ -37,3 +37,405 @@
 .review button:hover{
     background-color: #ffc107;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header.topbar {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(3, 7, 32, 0.839);
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+
+header.topbar .icons a {
+    padding-left: 15px;
+}
+
+header.topbar .auth {
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+header.topbar .auth a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+header.topbar .auth img {
+    height: 15px;
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+header.topbar .auth a:hover,
+a:visited {
+    text-decoration: none;
+}
+
+.contact h5 {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.contact h6 {
+    margin-left: 15px;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+nav.navbar {
+    height: 70px;
+}
+
+nav.navbar ul li {
+    width: 100px;
+    text-align: center;
+}
+
+nav.navbar ul li a {
+    color: black;
+}
+
+nav.navbar ul li a:hover {
+    background-color: #ffc107;
+    color: white;
+}
+
+nav.navbar ul li a:active {
+    background-color: #ffc107;
+    color: white;
+}
+
+.hero {
+    height: 600px;
+    background-image: url(./images/hero.png);
+    overflow: hidden;
+    padding: 180px;
+    margin-top: 20px;
+}
+
+.hero .welcome {
+    font-family: "Raleway-bold";
+    font-size: large;
+    font-weight: bolder;
+}
+
+.hero h1 {
+    font-family: "Raleway-extrabold";
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.hero h1 span {
+    color: #ffc107;
+    font-family: "Raleway-extrabold";
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.read {
+    background-color: #ffc107;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    transition-duration: 0.3s;
+    height: 50px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.read:hover {
+    background-color: white;
+    color: #ffc107;
+    border: 1px solid #ffc107;
+}
+
+.shop {
+    background-color: #232B38;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    transition-duration: 0.3s;
+    height: 50px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.shop:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.top-products {
+    /* background-color: rgb(221, 219, 219); */
+    margin: 40px;
+}
+
+.top-products .btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.top-margin {
+    font-family: "Raleway-bold";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    Position: relative;
+    margin-bottom: 100px;
+}
+
+.top-margin::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-image: url(./icons/hr.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: -40px;
+}
+
+.top-products .btn {
+    background-color: #ffc107;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    transition-duration: 0.3s;
+    height: 40px;
+    text-align: center;
+}
+
+.top-products .btn:hover {
+    background-color: #ffc107;
+}
+
+.top-products .product-price {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.team .card {
+    background-color: #fff4e2;
+    width: 200px;
+    height: 350px;
+    margin-right: 40px;
+}
+
+.team .member-photo {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 1px 1px rgba(72, 78, 85, .6);
+    box-shadow: 0 1px 1px rgba(72, 78, 85, .6);
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.box-shadow:hover {
+    -webkit-box-shadow: 0 20px 40px rgba(72, 78, 85, .6);
+    box-shadow: 0 20px 40px rgba(72, 78, 85, .6);
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+    transform: translateY(-15px);
+}
+
+.subscribe h1 {
+    font-family: "Raleway-bold";
+    margin-bottom: 5px;
+}
+
+footer {
+    height: 350px;
+    color: white;
+    background-color: #2D333F;
+    padding: 50px 15%;
+    display: flex;
+}
+
+footer h3 {
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.cols-2 a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.cols-2 a:hover {
+    color: #ffc107;
+}
+
+.cols-3 a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.cols-3 a:hover {
+    color: #ffc107;
+}
+
+.cols-1 button {
+    border-radius: 20px;
+    color: white;
+    background-color: #232B38;
+    width: 100px;
+    height: 40px;
+    border: 0px;
+}
+
+.cols-1 button:hover {
+    color: white;
+    background-color: #ffc107;
+}
+
+footer form input {
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+footer form button {
+    border-radius: 30px;
+    color: white;
+    background-color: #232B38;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+
+footer form button:hover {
+    color: white;
+    background-color: #ffc107;
+}
+
+.cols-1 {
+    margin-right: 20px;
+}
+
+.cols-2 {
+    margin-right: 20px;
+}
+
+.cols-3 {
+    margin-right: 20px;
+}
+
+.cart {
+    margin: 80px 15%;
+    margin-bottom: 30px;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart table th {
+    background-color: #ffc107;
+    color: white;
+    padding: 5px;
+}
+
+.cart table tr{
+    border-bottom: 1px solid #ddd;
+}
+.cart table tr:last-child{
+    border: none;
+}
+.cart table td {
+    padding: 10px 5px;
+}
+
+.cart input {
+    height: 33px;
+    width: 50px;
+    padding: 5px;
+}
+
+.cart button {
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    margin-left: 10px;
+}
+.cart button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cart img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.cart .cart-info{
+    display: flex;
+    flex-direction: column;
+    padding:10px 15px;
+}
+
+.subtotal{
+    font-size: large;
+}
+
+.total{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 15%;
+}
+.total table{
+    border-top: 3px solid #ffc107;
+    width: 400px;
+}
+td:last-child{
+    text-align: right;
+}
